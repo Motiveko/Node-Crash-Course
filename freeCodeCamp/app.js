@@ -1,8 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-// Stream을 쓰는 이유는 fs.readFile로 그냥 읽으면 한번에 다읽어야하는데 이는 버퍼 용량을 초과하기때문이다.
-// Stream이 읽는 chunk는 버퍼단위로 읽기때문에 용량이 커도 짤라서 읽으므로 괜찮다.
+// Stream을 쓰는 이유는 fs.readFile로 그냥 읽으면 한번에 다읽어야하는데 이는 버퍼 용량을 초과할 수 있기 때문이다.
+// 그냥 읽는거는 fullBuffer를 쓰고 Stream은 버퍼를 조금만사용하는데(memory efficience)
+// Stream이 읽는 chunk는 작은 버퍼단위로 읽기때문에 용량이 커도 짤라서 읽으므로 괜찮다.
 const readStream = fs.createReadStream(path.join(__dirname,'bigfile.pdf'));
 
 const writeStream = fs.createWriteStream('bigfile_copied.pdf');
