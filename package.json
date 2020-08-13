@@ -1,0 +1,26 @@
+{
+  "name": "node_crash_course",
+  "version": "1.0.0",
+  "description": "Node crash course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Motiveko/Node-Crash-Course.git"
+  },
+  "author": "motiveko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Motiveko/Node-Crash-Course/issues"
+  },
+  "homepage": "https://github.com/Motiveko/Node-Crash-Course#readme",
+  "dependencies": {
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
