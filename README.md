@@ -6,6 +6,6 @@
 >  * [https://www.youtube.com/watch?v=fBNz5xF-Kx4](https://www.youtube.com/watch?v=fBNz5xF-Kx4)
  
 ### 학습한 내용
-> *[ Npm ]
-> *[ Node Module Core (path,os,url,fs,events, etc..]
-> *[ Server created by http module]
+> * Npm 
+> * Node Module Core (path,os,url,fs,events, etc..
+> * Server created by http module
