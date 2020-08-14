@@ -7,5 +7,5 @@
  
 ### 학습한 내용
 > * Npm 
-> * Node Module Core (path,os,url,fs,events, etc..
+> * Node Core Moudles (path,os,url,fs,events, etc..)
 > * Server created by http module
