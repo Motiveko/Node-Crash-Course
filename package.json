@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Motiveko/Node-Crash-Course#readme",
   "dependencies": {
+    "lodash": "^4.17.20", // major.minor.patch, ^ - major빼고 업데이트, ~ - patch만 업데이트
     "uuid": "^8.3.0"
   },
   "devDependencies": {

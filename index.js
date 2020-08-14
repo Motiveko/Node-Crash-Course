@@ -89,6 +89,7 @@ const server = http.createServer((req,res) =>{
 });
 
 // enviroment variable을 살펴보고 포트가 없다면 5000으로 한다, process의 enviroment가 뭔지 알아야 이해할수있을듯
+// eatgo에서 작성한 .env파일인가보다!
 const PORT = process.env.PORT || 5000; 
 
 server.listen( PORT, ()=> console.log(`Server running on port ${PORT}`));
